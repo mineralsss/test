@@ -2,10 +2,7 @@ import math
 a = int()
 b = int()
 c = int()
-def main():
-    get_input()
-    check()
-    calculate()
+
 def get_input():
     a = int(input("Enter 1st number:"))
     b = int(input("Enter 2nd number:"))
@@ -31,5 +28,8 @@ def calculate():
     else:
         calculate()
 
-
+def main():
+    get_input()
+    check()
+    calculate()
 main()
